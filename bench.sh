@@ -2,7 +2,7 @@
 
 set -e
 
-frameworks=(beego echo/standard echo/fasthttp gin goji martini)
+frameworks=(beego echo/standard echo/fasthttp chi gin iris goji martini)
 
 for f in ${frameworks[@]}; do
   echo "benchmarking $f..."
